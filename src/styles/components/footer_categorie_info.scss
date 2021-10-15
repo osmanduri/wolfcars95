@@ -1,19 +1,16 @@
-.footer_liste_categorie{
+.footer_liste_categorie {
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     width: 215px;
 }
-.footer_categorie_cards{
-    border:1px solid white;
+
+.footer_categorie_cards {
+    border: 1px solid white;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
     margin-bottom: 10px;
-}
-
-@media screen and (max-width: 768px) {
-
 }

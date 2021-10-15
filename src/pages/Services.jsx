@@ -11,7 +11,7 @@ export default function Services() {
                     return (
                         
                         <div className="service_image_texte" key={index}>
-                            <img src={`/Logo_WolfCars/services/${element}.PNG`} alt="logo" />
+                            <img src={require(`../images/services/${element}.png`).default} alt="logo" />
                             <p>{element}</p>
                         </div>
 

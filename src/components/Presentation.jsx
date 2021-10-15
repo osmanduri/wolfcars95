@@ -1,10 +1,10 @@
 import React from 'react'
-import Audi from '../images/Galerie/audi_r8.jpeg'
+//import Audi from '../images/Galerie/audi_r8.jpeg'
 export default function Presentation() {
     return (
         <div className="presentation">
             <div className="presentation_img">
-                <img src={Audi} alt='mecano'/>
+                <img src={require('../images/Galerie/audi_r8.jpeg').default} alt='mecano'/>
             </div>
             <div className="presentation_texte">
                 <h2>Bienvenue</h2>

@@ -9,6 +9,7 @@ import Footer from './components/Footer.jsx'
 import FooterCopyright from './components/Footer_copyright.jsx'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import ScrollToTop from "react-scroll-to-top";
+import scroll_img from './images/scroll.png'
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     const style = {
 
         padding: "25px",
-        background: `url('/scroll.png')`,
+        background: `url(${scroll_img})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
@@ -32,11 +33,10 @@ function App() {
     }
 
     window.addEventListener('scroll', changeBackGround)
-    return ( 
+    return (
         <div className = "App">
 
-        <Router > 
-            
+        <Router >
             {
                 showHeaderTop && < Header />
             }

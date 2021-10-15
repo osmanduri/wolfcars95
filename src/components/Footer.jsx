@@ -19,7 +19,7 @@ export default function Footer() {
                         <p>23 rue de Clairvaux<br/>95140 Montmorency</p>
                     </div>
                     <div className="wolf">
-                        <img src='/Logo_WolfCars/wolf.jpg' alt="wolf"/>
+                        <img src={require('../images/wolf.jpg').default} alt="wolf"/>
                     </div>
                     <div className="contacter">
                         <i className="fas fa-phone-alt"></i>

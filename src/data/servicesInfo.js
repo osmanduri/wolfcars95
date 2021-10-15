@@ -2,7 +2,7 @@ const servicesInfo = [
     "batterie",
     "climatisation",
     "distribution",
-    "Vidange",
+    "vidange",
     "revision",
     "freinage",
     "electronique",

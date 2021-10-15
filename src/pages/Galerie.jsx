@@ -25,7 +25,7 @@ export default function Galerie() {
                         {
                             galerieData.map((element, index) => {
                                     return (
-                                        <SwiperSlide key={index} ><img src={`/Galerie/${element.title}.${element.format}`} alt="galerie" key={index}/></SwiperSlide>
+                                        <SwiperSlide key={index} ><img src={require(`../images/Galerie/${element.title}.${element.format}`).default} alt="galerie" key={index}/></SwiperSlide>
                                     )
                                 })
                         }

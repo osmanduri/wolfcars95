@@ -6,7 +6,7 @@ export default function Navigation() {
         <div className="navigation">
             <div className="navigation_inside">
                 <div className="menu_gauche">
-                    <img src="/Logo_WolfCars/wolf_cars_95_B.jpeg" alt="logo"/>
+                    <img src={ require('../images/wolf_cars_95_B.jpeg').default} alt="logo"/>
                 </div>
                 <div className="menu_droite">
                     <ul>
