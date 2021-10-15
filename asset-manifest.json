@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wolfcars95/static/css/main.ad9ee4fb.chunk.css",
+    "main.js": "/wolfcars95/static/js/main.9f62fd8b.chunk.js",
+    "main.js.map": "/wolfcars95/static/js/main.9f62fd8b.chunk.js.map",
+    "runtime-main.js": "/wolfcars95/static/js/runtime-main.4cd77e18.js",
+    "runtime-main.js.map": "/wolfcars95/static/js/runtime-main.4cd77e18.js.map",
+    "static/css/2.fa75f13c.chunk.css": "/wolfcars95/static/css/2.fa75f13c.chunk.css",
+    "static/js/2.c6c6043a.chunk.js": "/wolfcars95/static/js/2.c6c6043a.chunk.js",
+    "static/js/2.c6c6043a.chunk.js.map": "/wolfcars95/static/js/2.c6c6043a.chunk.js.map",
+    "index.html": "/wolfcars95/index.html",
+    "static/css/2.fa75f13c.chunk.css.map": "/wolfcars95/static/css/2.fa75f13c.chunk.css.map",
+    "static/css/main.ad9ee4fb.chunk.css.map": "/wolfcars95/static/css/main.ad9ee4fb.chunk.css.map",
+    "static/js/2.c6c6043a.chunk.js.LICENSE.txt": "/wolfcars95/static/js/2.c6c6043a.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/wolfcars95/static/media/s3.ce5d7ca7.jpeg",
+    "static/media/audi_r8.381a21de.jpeg": "/wolfcars95/static/media/audi_r8.381a21de.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cd77e18.js",
+    "static/css/2.fa75f13c.chunk.css",
+    "static/js/2.c6c6043a.chunk.js",
+    "static/css/main.ad9ee4fb.chunk.css",
+    "static/js/main.9f62fd8b.chunk.js"
+  ]
+}
