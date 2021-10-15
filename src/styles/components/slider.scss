@@ -1,0 +1,92 @@
+.b_slider_1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../images/s3.jpeg");
+    height: $slider_height;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-position: right 20% bottom 50%;
+
+}
+
+.b_slider_2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../images/audi4.webp");
+    height: $slider_height;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.b_slider_3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../images/bmw.webp");
+    height: $slider_height;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 72% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.b_slider_4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../images/amg.webp");
+    height: $slider_height;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+    background-color:transparent;
+    transition: all 0.5s ease-out;
+    font-size: 4px;
+    border:1px solid white;
+    border-radius: 50%;
+    padding:25px;
+    border:none;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 23px;
+    color: $orange-auto_doc;
+}
+
+h4, h1, h2, p{
+    color:#fff;
+    
+}
+
+.swiper_slide_p h1{
+    font-size: 61px;
+    margin-left: 900px;
+}
+
+.swiper_slide_p h2{
+    font-size: 61px;
+    font-weight: bolder;
+    margin-left: 900px;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+}
+

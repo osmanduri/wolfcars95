@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+@import './components/variable.scss';
+@import './components/header_top.scss';
+@import './components/navigation.scss';
+@import '../styles/components/slider.scss';
+@import '../styles/components/cards.scss';
+@import '../styles/components/presentation.scss';
+@import '../styles/components/services.scss';
+@import '../styles/components/contact.scss';
+@import '../styles/components/footer.scss';
+@import '../styles/components/footer_services_info.scss';
+@import '../styles/components/footer_categorie_info.scss';
+@import '../styles/components/footer_copyright.scss';
+@import '../styles/components/galerie.scss';
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}

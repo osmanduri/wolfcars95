@@ -1,0 +1,223 @@
+.main_footer{
+    background: #333;
+    height: 630px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+.map{
+    display: flex;
+    align-items: center;
+}
+
+.map i{
+    font-size: 48px;
+}
+
+.map p{
+    font-size: 19px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.wolf img{
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.contacter{
+    display: flex;
+    align-items: center;
+}
+
+.contacter i{
+    font-size: 48px;
+    margin-right: 30px;
+}
+
+.contacter p{
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.footer_trait{
+    height: 1px;
+    background: white;
+    margin-top: 20px;
+}
+
+.footer_info_second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_second h3{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 25px;
+}
+
+
+.footer_info_second p{
+    font-size: 14px;
+    
+}
+
+.footer_trait_petit{
+    height: 2px;
+    background: white;
+    margin-top: 15px;
+    width: 20%;
+}
+
+.footer_propos_adresse{
+    margin-top: 25px;
+}
+
+.footer_propos_mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.footer_propos_email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.footer_reseaux_sociaux{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer_reseaux_sociaux {
+    margin-top: 30px;
+    .fab{
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+}
+
+.footer_horaires_second{
+    margin-top: 25px;
+}
+
+.footer_semaine{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.modal_snap img{
+    width: 300px;
+    height: 300px;
+}
+
+.cross_exit{
+    position: absolute;
+    right: 5%;
+    bottom: 90%;
+    cursor: pointer;
+}
+.cross_exit i{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .main_footer{
+        background: #333;
+        height: 1600px;
+        width: 100%;
+    }
+    .footer_info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        flex-direction: row;
+        width: 100%;
+    }
+    .map{
+        display: none;
+    }
+    .map i{
+        font-size: 18px;
+    }
+    .map p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contacter{
+        display: none;
+    }
+    .contacter i{
+        font-size: 28px;
+        margin-right: 30px;
+    }
+    .wolf img{
+        width: 250px;
+        height: 120px;
+        margin-top: 20px;
+    }
+    
+    .contacter p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer_info_second{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_trait{
+        display: none;
+    }
+    .footer_propos{
+        margin-top: 40px;
+        .footer_propos_mobile{
+
+            margin-top: 18px;
+        }
+        
+        .footer_propos_email{
+
+            margin-top: 18px;
+        }
+    }
+    .footer_service{
+        margin-top: 40px;
+    }
+    .footer_categorie{
+        margin-top: 40px;
+    }
+    .footer_horaires{
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .footer_reseaux_sociaux {
+        justify-content: flex-start;
+        margin-left: -25px;
+        .fab{
+            font-size: 20px;
+            margin-left: 25px;
+        }
+    
+    }
+}

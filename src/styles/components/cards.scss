@@ -1,0 +1,105 @@
+.cards {
+    height: 256px;
+    width: 256px;
+    background-color: $orange-auto_doc;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //filter: brightness(50%);
+    margin: 15px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+}
+
+.cards:hover {
+    transform: rotateY(180deg);
+}
+
+.cards i {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -150px;
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thefront h4 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    color: $orange-auto_doc;
+    background-color: $orange-auto_doc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.theback p {
+    color: white;
+    text-align: center;
+    width: 220px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.theback a {
+    background-color: white;
+    padding: 6px 30px 8px;
+    color: $orange-auto_doc;
+    position: absolute;
+    top: 200px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.theback a:hover {
+    background-color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .container_cards {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        max-width: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+}

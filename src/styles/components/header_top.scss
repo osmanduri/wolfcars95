@@ -1,0 +1,133 @@
+.container {
+    width: 1176px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 51px;
+}
+
+.header_inside {
+    width: 1176px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.localisation {
+    display: flex;
+    color: #888;
+    font-size: 13px;
+}
+
+i {
+    color: $orange-auto_doc;
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a {
+    color: $orange-auto_doc;
+}
+
+.need_help p {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.need_help p span {
+    margin-left: 12px;
+    background: $orange-auto_doc;
+    border-radius: 4px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+
+.burger_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    height: 51px;
+}
+
+.burger_menu i {
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.navbar_mobile {
+    position: absolute;
+    top: 121px;
+    left: -100%;
+    height: 590px;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar_mobile.active {
+    background: #242222;
+    position: absolute;
+    top: 121px;
+    left: 0;
+    opacity: 1;
+    height: 590px;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar_mobile ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    transition: all 0.5s ease;
+    height: 590px;
+}
+
+.navbar_mobile ul li {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.navbar_mobile ul li:hover {
+    background: white;
+    a {
+        color: #242222;
+    }
+}
+
+.navbar_mobile ul li a {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}

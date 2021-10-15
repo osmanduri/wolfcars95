@@ -1,0 +1,78 @@
+.navigation {
+    height: 70px;
+    background: $rouge-ferrari;
+    background: $orange-auto_doc;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.navigation_inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1176px;
+    margin: auto;
+}
+
+.navigation p {
+    color: blue;
+}
+
+.navigation img {
+    width: 227px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_gauche {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_droite ul li {
+    height: 70px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: all 0.5s ease-out;
+    font-size: 16px;
+    background: $orange-auto_doc;
+}
+
+.menu_droite ul li:hover {
+    background: $orange-auto_doc_hover;
+}
+
+.nav-active {
+    color: rgb(255, 0, 0);
+    background-color: $rouge-ferrari;
+}
+
+.trait {
+    background: yellow;
+    width: 1px;
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+    .menu_droite ul {
+        display: none;
+    }
+    .navigation_inside {
+        width: 100%;
+        justify-content: center;
+    }
+    .navigation {
+        position: relative;
+        width: 100%;
+    }
+}

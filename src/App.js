@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import Header from "./components/Header_top.jsx"
+import Navigation from './components/Navigation.jsx'
+import Home from './pages/Home.jsx'
+import Services from './pages/Services.jsx'
+import Contacts from './pages/Contacts.jsx'
+import Galerie from './pages/Galerie.jsx'
+import Footer from './components/Footer.jsx'
+import FooterCopyright from './components/Footer_copyright.jsx'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import ScrollToTop from "react-scroll-to-top";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    const [showHeaderTop, setShowHeaderTop] = useState(true)
+    const changeBackGround = () => {
+        if (window.scrollY > 0 && window.innerWidth > 768) {
+            setShowHeaderTop(false);
+        } else {
+            setShowHeaderTop(true);
+        }
+    }
 
-export default App;
+    const style = {
+
+        padding: "25px",
+        background: `url('/scroll.png')`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        overflow: "hidden"
+    }
+
+    window.addEventListener('scroll', changeBackGround)
+    return ( 
+        <div className = "App">
+
+        <Router > 
+            
+            {
+                showHeaderTop && < Header />
+            }
+
+        <Navigation />
+        <Switch >
+        <Route exact path = "/" component = { Home }/>
+        <Route exact path = "/services" component = { Services }/>
+        <Route exact path = "/contact" component = { Contacts }/>
+        <Route exact path = "/galerie" component = { Galerie }/>
+        <Redirect to = "/"/>
+        </Switch>
+        <Footer />
+        <FooterCopyright />
+        {
+            < ScrollToTop smooth style = { style }/>
+        }
+        </Router>
+        </div>
+        );
+    }
+
+    export default App;
