@@ -1,5 +1,4 @@
 import React from 'react'
-//import Audi from '../images/Galerie/audi_r8.jpeg'
 export default function Presentation() {
     return (
         <div className="presentation">

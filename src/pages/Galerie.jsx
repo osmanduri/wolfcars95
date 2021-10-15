@@ -11,7 +11,6 @@ import SwiperCore, {
     Pagination,Navigation
   } from 'swiper';
   
-  // install Swiper modules
   SwiperCore.use([Pagination,Navigation]);
 export default function Galerie() {
 
