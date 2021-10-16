@@ -29,7 +29,8 @@ function App() {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        overflow: "hidden"
+        overflow: "hidden",
+        transition:"all 0.5s ease"
     }
 
     window.addEventListener('scroll', changeBackGround)

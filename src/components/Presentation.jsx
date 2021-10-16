@@ -3,7 +3,7 @@ export default function Presentation() {
     return (
         <div className="presentation">
             <div className="presentation_img">
-                <img src={require('../images/Galerie/audi_r8.jpeg').default} alt='mecano'/>
+                <img src={'https://lh3.googleusercontent.com/6OpbHZVmS69zqVQkXNrOUYlnoz5U7lWThM0hFHo-OfE-xqH9wXtpH0tbzUXyoi-eRxPWwdIzI-_0lzWoZG9Ou64o3NZM6w0d4chpZ2pKNeAjsve3CE53MtPYBg1t5Po5Ot-NqIz33oLiNPfZ2HxHEpsEIJjR_I5_DvmfMJ6zTbuTBgHKMMKcMcP_y3OR-kRgs61Fney7Y9jd7SdJGD65m_uV_R-UYSGcYvmn8-xwWLKqIkgGFA-tXuJwKIyG6pvnMiyVyS8iCCmLXsubEnqmVWZbMk18_Phb_59Pfbq-B_rdYjR53PapQtOySrF7EPI8B0iDwEHIU427zvbefOCrbS-pc9YyJRuyxIhhRx9TgfjXBG3lJAFcFw79TmMqM9bpo9CKozGLI9l58bzIQ1rmq0gWFwF7rmwuFJN5zW4Hr3vFC8_6MTKYPMapc6rJd9l9GQYg_Juwb7k9VuQOcbO3rkgDRnJ6_IljVuvxQhhBKryjWIoMrPCUSNIbEU6CNYtUbwhCAo80Bcxz_aZHiIlDX13WfZ06Hkft_LAIqrJdS7LmIiBol9KMpzr7W3L0aZjLbWD9c7GPeXjgzloAVoGbP7MqJfran_S3q_nki9biWQ98LkvQQfyQC-PWPW0UYt-FfXdpqoQ4FARMOBpauMU1nwY0eUg5mAIW6FbjBgOicZpZekDcYyngPbFq1qghz2Wq1hbJT9hm8XpHrYOzabRjCls=w1288-h937-no?authuser=0'} alt='mecano'/>
             </div>
             <div className="presentation_texte">
                 <h2>Bienvenue</h2>
