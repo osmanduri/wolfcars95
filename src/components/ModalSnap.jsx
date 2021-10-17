@@ -35,7 +35,7 @@ export default function ModalSnap({showModal, setShowModal}) {
             }>
             <div className="modal_snap">
                 <div onClick={closeModal} className="cross_exit"><i className="fas fa-times"></i></div>
-                <img src="/Logo_WolfCars/snapchat_qrcode.jpg" alt="snap"/>
+                <img src={require("../images/snapchat_qrcode.jpg").default} alt="snap"/>
             </div>
         </Modal>
     </div>

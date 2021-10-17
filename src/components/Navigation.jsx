@@ -6,24 +6,24 @@ export default function Navigation() {
         <div className="navigation">
             <div className="navigation_inside">
                 <div className="menu_gauche">
-                    <img src="/wolfcars95/static/media/wolf_cars_95_B.jpeg" alt="logo"/>
+                    <img src={require('../images/Galerie/wolf_cars_95_B.jpeg').default} alt="logo"/>
                 </div>
                 <div className="menu_droite">
                     <ul>
                         <div className="trait"/>
-                        <NavLink to="/"  activeClassName="nav-active" className="hover">
+                        <NavLink to="/"   exact activeClassName="nav-active" className="hover">
                             <li>Accueil</li>
                         </NavLink>
                         <div className="trait"/>
-                        <NavLink to="/services"  activeClassName="nav-active" className="hover">
+                        <NavLink to="/services" exact activeClassName="nav-active" className="hover">
                             <li>Services</li>
                         </NavLink>
                         <div className="trait"/>
-                        <NavLink to="/contact"  activeClassName="nav-active" className="hover">
+                        <NavLink to="/contact"   exact activeClassName="nav-active" className="hover">
                             <li>Contact</li>
                         </NavLink>
                         <div className="trait"/>
-                        <NavLink to="/galerie"  activeClassName="nav-active" className="hover" >
+                        <NavLink to="/galerie"  exact activeClassName="nav-active" className="hover" >
                             <li>Galerie</li>
                         </NavLink>
                         <div className="trait"/>

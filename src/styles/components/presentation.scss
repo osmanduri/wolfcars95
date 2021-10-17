@@ -1,24 +1,23 @@
-.presentation{
+.presentation {
     display: flex;
     justify-content: space-between;
     margin-top: 220px;
-
 }
 
-.presentation_img img{
+.presentation_img img {
     width: 600px;
     height: 360px;
     opacity: 0.7;
 }
 
-.presentation_texte{
+.presentation_texte {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-.presentation_texte h2{
+.presentation_texte h2 {
     font-weight: bolder;
     font-size: 30px;
     text-align: center;
@@ -28,7 +27,7 @@
     margin-bottom: 10px;
 }
 
-.presentation_texte h3{
+.presentation_texte h3 {
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
@@ -38,36 +37,38 @@
     margin-bottom: 10px;
 }
 
-.presentation_texte p{
+.presentation_texte p {
     color: black;
     width: 450px;
     text-align: center;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 22px;
     color: #888;
 }
 
-.presentation_texte p a:hover{
-    color:red;
+.presentation_texte p a {
+    color: red;
     text-decoration: underline;
 }
 
-
+.presentation_texte p a:hover {
+    color: red;
+}
 
 @media screen and (max-width: 768px) {
-    .presentation{
+    .presentation {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 100px;
     }
-    .presentation_texte{
+    .presentation_texte {
         margin-top: 20px;
     }
-    .presentation p{
+    .presentation p {
         width: 90%;
     }
-    .presentation img{
+    .presentation img {
         width: 100%;
     }
 }

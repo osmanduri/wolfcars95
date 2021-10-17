@@ -1,6 +1,5 @@
 .navigation {
     height: 70px;
-    background: $rouge-ferrari;
     background: $orange-auto_doc;
     position: fixed;
     z-index: 999;
@@ -45,7 +44,6 @@
     padding-left: 30px;
     transition: all 0.5s ease-out;
     font-size: 16px;
-    background: $orange-auto_doc;
 }
 
 .menu_droite ul li:hover {
@@ -53,8 +51,9 @@
 }
 
 .nav-active {
-    color: rgb(255, 0, 0);
-    background-color: $rouge-ferrari;
+    li {
+        background: $orange-auto_doc_hover;
+    }
 }
 
 .trait {
