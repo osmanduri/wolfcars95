@@ -32,7 +32,7 @@ export default function Footer() {
                         <h3>A propos</h3>
                         <div className="footer_trait_petit"/>
                         <div className="footer_propos_adresse">
-                           <p>23 rue de clairvaux montmorency<br/>95140 Montmorency</p>
+                           <p>23 rue Clairvaux <br/>95140 Montmorency</p>
                         </div>
                         <div className="footer_propos_mobile">
                            <p>Mobile: </p>

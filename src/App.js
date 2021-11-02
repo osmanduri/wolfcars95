@@ -37,7 +37,7 @@ function App() {
     return (
         <div className = "App">
 
-        <Router >
+        <Router>
             {
                 showHeaderTop && < Header />
             }
@@ -57,6 +57,7 @@ function App() {
         }
         </Router>
         </div>
+
         );
     }
 
